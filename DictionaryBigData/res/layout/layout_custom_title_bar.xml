@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_vertical|top"
+    android:background="@drawable/background_type_dict_item" >
+
+    <Spinner
+        android:id="@+id/spinner_dict_type"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/background_type_dict_item"
+        android:spinnerMode="dropdown"
+        android:paddingLeft="15dp" />
+
+    <stepbystep.careful.util.CustomEditText
+        android:id="@+id/edit_search"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:drawableRight="@drawable/x"
+        android:layout_gravity="center_vertical"
+ 		android:background="@drawable/background_edit_search"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+</LinearLayout>
